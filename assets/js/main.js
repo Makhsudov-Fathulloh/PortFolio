@@ -259,3 +259,12 @@
   new PureCounter();
 
 })()
+
+/**
+ * Index page: age
+ */
+const birthYear = 1996;
+const currentYear = new Date().getFullYear();
+const age = currentYear - birthYear;
+
+document.getElementById('age').textContent = age;
